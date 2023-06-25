@@ -36,20 +36,25 @@
           src="./assets/avatar.png"
           alt="Foto do streamer Vtuber da Twitch, GatoPretonline."
         />
-        <p>@GatoPretonline</p>
+        <p id="nickname">@GatoPretonline</p>
       </div>
-      <div id="switch" onclick="toggleMode()">
+      <div
+        id="switch"
+        onclick="toggleMode()"
+      >
         <button></button>
         <span></span>
       </div>
       <ul>
         <li>
           <a
+            id="link-01"
             href="https://twitter.com/GatoPretonline"
             target="_blank"
           >
             Siga no Twitter
             <ion-icon
+              id="link-01-icon"
               class="icon"
               name="logo-twitter"
             ></ion-icon>
@@ -58,11 +63,13 @@
 
         <li>
           <a
+            id="link-02"
             href="https://www.instagram.com/gatopretonline"
             target="_blank"
           >
             Siga no Instagram
             <ion-icon
+              id="link-02-icon"
               class="icon"
               name="logo-instagram"
             ></ion-icon>
@@ -71,18 +78,20 @@
 
         <li>
           <a
+            id="link-03"
             href="https://www.tiktok.com/@gatopretonline"
             target="_blank"
           >
             Siga no Tiktok
             <ion-icon
+              id="link-03-icon"
               class="icon"
               name="logo-tiktok"
             ></ion-icon>
           </a>
         </li>
 
-        <li>
+        <li id="link-04">
           <a
             href="https://www.youtube.com/channel/UClj1ARbfNd1nS2sETII_7Cg?view_as=subscriber"
             target="_blank"
@@ -117,11 +126,16 @@
       </div>
       <footer>
         Prazer, me chamo
-        <a id="GatoPreto"
+        <a
+          id="GatoPreto"
           href="https://www.twitch.tv/gatopretonline"
           target="_blank"
           >Gato Preto</a
-        >, <div id="designer">streamer Vtuber. Então vem fazer parte da ninhada e bora curtir a live juntos!!!</div>
+        >,
+        <div id="designer">
+          streamer Vtuber. Então vem fazer parte da ninhada e bora curtir a live
+          juntos!!!
+        </div>
       </footer>
     </div>
     <script
