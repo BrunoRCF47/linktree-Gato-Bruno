@@ -181,3 +181,13 @@ footer a {
 footer a:hover {
   color: var(--footer-text-color);
 }
+
+/* media queries*/
+@media (min-width:700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.png);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.png);
+  }
+}
